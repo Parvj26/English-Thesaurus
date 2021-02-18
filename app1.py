@@ -23,7 +23,7 @@ def value(key):
         return ("The word doesn't exist. Please double check")
 
 def driver():
-    user_input = input("Enter a Word: ").lower()
+    user_input = input("Enter a Word:").lower()
     print(value(user_input))
 
 driver()
